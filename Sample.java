@@ -9,5 +9,6 @@ public static void main(String args[]) {
     y=sc.nextInt();
     z=sc.nextInt();
     System.out.println("Maximum of "+x+","+y+" and "+z+" ::"+((x>y && x>z)?x:((y>z)?y:z)));
+    System.out.println("Sum of x+y+z:"+(x+y+z));
 }
 }
